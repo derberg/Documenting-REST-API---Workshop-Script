@@ -38,9 +38,12 @@ First you need to fork some projects and configure them correctly to set up the 
 
 If configuration is completed you have to:
 
-1. Clone your forked `docpad-skeleton-apidocs` repository
-2. Navigate to its local clone in the terminal
+1. Clone your forked `docpad-skeleton-apidocs` repository,
+
+2. Navigate to its local clone in the terminal,
+
 3. Call the following command: `npm start`
+
 4. Once the start is completed, open in the browser the following link: http://localhost:9778/
 
 ## Publishing to GitHub Pages
@@ -48,6 +51,7 @@ If configuration is completed you have to:
 The easiest solution is to publish the API Doc portal on GitHub pages. Of course the generated API Doc portal files can be hosted on any other server as it is pure static content.
 
 1. Create new repository with the following name: `your_github_username.github.io`. It must be public and initialized (You do it in UI during creation).
+
 2. Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository.
  - Change the `srcLocation` attribute:
  ```
@@ -59,6 +63,7 @@ The easiest solution is to publish the API Doc portal on GitHub pages. Of course
  docuUrl: process.env.docuURL || 'http://derberg.github.io',
  ```
  The page url must be the same as the name of your newly created `your_github_username.github.io` repository.
+
 3. Modify `docpad.coffee` file in forked `docpad-skeleton-apidocs` repository. Change the `url` attribute:
 ```
 environments:
@@ -68,7 +73,11 @@ environments:
         url: "http://derberg.github.io"
 ```
 It should point to the following url: `http://your_github_username.github.io`
+
 4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal
+
 5. Call the following command: `npm run production`
+
 6. Call the following command: `gulp pushResult`
+
 7. Once the push is completed, open in the browser the following link: http://your_github_username.github.io
