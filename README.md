@@ -50,15 +50,15 @@ The easiest solution is to publish the API Doc portal on GitHub pages. Of course
 1. Create new repository with the following name: `your_github_username.github.io`. It must be public and initialized (You do it in UI during creation).
 2. Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository.
  - Change the `srcLocation` attribute:
-```
-srcLocation: 'https://github.com/derberg/derberg.github.io.git',
-```
-The git url must point to your newly created `your_github_username.github.io` repository.
+ ```
+ srcLocation: 'https://github.com/derberg/derberg.github.io.git',
+ ```
+ The git url must point to your newly created `your_github_username.github.io` repository.
  - Change the `docuUrl` attribute:
-```
-docuUrl: process.env.docuURL || 'http://derberg.github.io',
-```
-The page url must be the same as the name of your newly created `your_github_username.github.io` repository.
+ ```
+ docuUrl: process.env.docuURL || 'http://derberg.github.io',
+ ```
+ The page url must be the same as the name of your newly created `your_github_username.github.io` repository.
 3. Modify `docpad.coffee` file in forked `docpad-skeleton-apidocs` repository. Change the `url` attribute:
 ```
 environments:
