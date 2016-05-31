@@ -65,14 +65,14 @@ The easiest solution is to publish the API Doc portal on GitHub pages. Of course
  The page url must be the same as the name of your newly created `your_github_username.github.io` repository.
 
 3. Modify `docpad.coffee` file in forked `docpad-skeleton-apidocs` repository. Change the `url` attribute:
-```
-environments:
-  prod:
-    templateData:
-      site:
-        url: "http://derberg.github.io"
-```
-It should point to the following url: `http://your_github_username.github.io`
+ ```
+ environments:
+   prod:
+     templateData:
+       site:
+         url: "http://derberg.github.io"
+ ```
+ It should point to the following url: `http://your_github_username.github.io`
 
 4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal
 
