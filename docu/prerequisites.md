@@ -3,7 +3,7 @@
 You need to have the following software/modules/applications installed on your computer to be able to complete all the steps of the workshop.
 
 - Install Node.js and NPM: https://nodejs.org/en/download/ (both in one package) and then install:
- - [DocPad](http://docpad.org/) by calling in the terminal: `npm install -g npm`
+ - [DocPad](http://docpad.org/) by calling in the terminal: `npm install -g docpad`
  - [Gulp](http://gulpjs.com/) by calling in the terminal: `npm install -g gulp-cli`
  - [Bower](http://bower.io/) by calling in the terminal: `npm install -g bower`
 - Get GitHub account: https://github.com/
