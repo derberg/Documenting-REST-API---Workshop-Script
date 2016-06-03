@@ -7,5 +7,5 @@ You need to have the following software/modules/applications installed on your c
  - [Gulp](http://gulpjs.com/) by calling in the terminal: `npm install -g gulp-cli`
  - [Bower](http://bower.io/) by calling in the terminal: `npm install -g bower`
 - Get GitHub account: https://github.com/
-- Install GitHub Desktop: https://desktop.github.com/ or GitHub CLI if you want to become a geek :)
+- Install GitHub Desktop: https://desktop.github.com/ and GitHub CLI: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install some nice text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)
