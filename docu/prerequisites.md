@@ -9,3 +9,4 @@ You need to have the following software/modules/applications installed on your c
 - Get GitHub account: https://github.com/
 - Install GitHub Desktop: https://desktop.github.com/ and GitHub CLI: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install some nice text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)
+- Install some nice REST client like [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
