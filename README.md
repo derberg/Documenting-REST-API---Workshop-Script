@@ -14,7 +14,7 @@ REST API in most cases is used in the cloud environment. If you are documenting 
 ```
 Like for the sake of this workshop we have a real service running.
 Just navigate to this link in the browser:
- http://minerva.cfapps.io/events
+ http://minerva.us-west-2.elasticbeanstalk.com/events
 ```
 - In cloud all the peaces are independent and super easy to set up locally.
 ```
@@ -27,7 +27,7 @@ Minerva service mentioned above is also easy to set up locally. Just follow belo
 - REST is easy to learn.
 ```
 Again navigate in the browser to the Minerva service:
-http://minerva.cfapps.io/events
+http://minerva.us-west-2.elasticbeanstalk.com/events
 What just happened? You `GET` an info from the server!
 Same thing happens once you open in a browser any Web page.
 ) Use for example a Chrome browser and go into the `Inspector` mode
