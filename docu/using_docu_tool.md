@@ -2,12 +2,15 @@
 
 First you need to fork some projects and configure them correctly to set up the documentation independent generation pipeline.
 
-1. Fork the following repos (it means open the links and click on Fork button in the top right corner of the page):
+1. Fork the following repos (it means open the links and click on [Fork](https://help.github.com/articles/fork-a-repo/) button in the top right corner of the page):
  - API Doc portal template: https://github.com/hybris/docpad-skeleton-apidocs
  - Sample REST API microservice that we will be documenting: https://github.com/derberg/minerva
  - Sample registry that integrates the template and docu sources: https://github.com/derberg/apidoc-workshop-docu_registry
 
 2. Configuration
+
+Config edits can be done through github.com UI or by using [Git CLI](https://www.codeschool.com/courses/try-git) or [GitHub Desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/).
+
  - Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository. Change the `path` attribute:
  ```
  path: process.env.REGISTRY_PATH || 'https://github.com/derberg/apidoc-workshop-docu_registry.git'
