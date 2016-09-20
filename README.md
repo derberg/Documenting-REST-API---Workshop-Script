@@ -60,9 +60,9 @@ Let us document our own service and publish documentation for it to a public ser
 
 - [Prerequisites](docu/prerequisites.md) -> You need to install some software on your machine first
 - [Set up and publishing](docu/using_docu_tool.md) -> Set up your local environment and publish first version of your documentation page
-- Write a `Details` document -> Write new document
-- API specification requires update in the schema for errors part -> Make some edits to API specification
+- [Write a Details document](docu/newdocu.md) -> Write new document
 
 ### Extra tasks
 
+- API specification requires update in the schema for errors part -> Make some edits to API specification
 - Now create a automated pipeline that will pick your changes and deploy to GitHub Pages. Use https://travis-ci.org/
