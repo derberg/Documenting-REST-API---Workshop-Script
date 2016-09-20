@@ -43,6 +43,10 @@ Why you can have a Google Map on your Web page
 
 [ProgrammableWeb](http://www.programmableweb.com/) had 9000 APIs registered in 2013, this year (2016) they already have over 14,700 (April) and over 15,800 (September).
 
+**Cool API**
+- http://catfacts-api.appspot.com/doc.html
+- http://catfacts-api.appspot.com/api/facts?number=3
+
 ## Details
 
 ### Consuming and Theory
