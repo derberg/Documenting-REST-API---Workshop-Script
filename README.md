@@ -58,10 +58,10 @@ Why you can have a Google Map on your Web page
 
 Let us document our own service and publish documentation for it to a public server.
 
-- [Prerequisites](docu/prerequisites.md)
-- [Set up and publishing](docu/using_docu_tool.md)
-- Write a `Details` document,
-- API specification requires update in the schema for errors part
+- [Prerequisites](docu/prerequisites.md) -> You need to install some software on your machine first
+- [Set up and publishing](docu/using_docu_tool.md) -> Set up your local environment and publish first version of your documentation page
+- Write a `Details` document -> Write new document
+- API specification requires update in the schema for errors part -> Make some edits to API specification
 
 ### Extra tasks
 
