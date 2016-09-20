@@ -1,7 +1,7 @@
 Clone your forked `minerva` repository and work on files locally or perform below steps in http://github.com UI.
 Documentation files are located under `service/docu/files/` directory.
 
-1. Create new documentation file called details.html.md
+1. Create new documentation file called `details.html.md`
 2. It should contain the following metadata:
 ```
 ---
