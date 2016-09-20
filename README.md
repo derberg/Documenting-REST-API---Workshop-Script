@@ -9,7 +9,7 @@ This is a script for a workshop about documenting REST APIs. The workshop covers
 
 ## Intro
 
-REST API in most cases is used in the cloud environment. It you are documenting REST API for cloud - you are lucky because:
+REST API in most cases is used in the cloud environment. If you are documenting REST API for cloud - you are lucky because:
 - You most likely have not only production but also stage environment set up permanently. This means you have a playground where you can check the API before you document it:
 ```
 Like for the sake of this workshop we have a real service running.
@@ -41,7 +41,7 @@ Why you can have 3rd party apps in Facebook
 Why you can have a Google Map on your Web page
 ```
 
-[ProgrammableWeb](http://www.programmableweb.com/) had 9000 APIs registered in 2013, this year they already have over 14,700.
+[ProgrammableWeb](http://www.programmableweb.com/) had 9000 APIs registered in 2013, this year (2016) they already have over 14,700 (April) and over 15,800 (September).
 
 ## Details
 
@@ -56,9 +56,9 @@ Let us document our own service and publish documentation for it to a public ser
 
 - [Prerequisites](docu/prerequisites.md)
 - [Set up and publishing](docu/using_docu_tool.md)
+- Write a `Details` document,
+- API specification requires update in the schema for errors part
 
 ### Extra tasks
 
-- Write a `Details` document,
-- API specification requires update in the schema for errors part
 - Now create a automated pipeline that will pick your changes and deploy to GitHub Pages. Use https://travis-ci.org/
