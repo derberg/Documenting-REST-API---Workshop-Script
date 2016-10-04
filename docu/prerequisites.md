@@ -8,3 +8,6 @@ You need to have the following software/modules/applications installed on your c
 - Install some nice text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)
 - Install some nice REST client like [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
 - Install Python (only for Windows) available in: https://www.python.org/downloads/
+
+
+Note: Windows users, please remember to alway make sure that during installation, if asked, mark option to alsa update environment variables.
