@@ -5,7 +5,7 @@ First you need to fork some projects and configure them correctly to set up the 
 1. Fork the following repos (it means open the links and click on [Fork](https://help.github.com/articles/fork-a-repo/) button in the top right corner of the page):
  - API Doc portal template: https://github.com/hybris/docpad-skeleton-apidocs
  - Sample REST API microservice that we will be documenting: https://github.com/derberg/minerva
- - Sample registry that integrates the template and docu sources: https://github.com/derberg/apidoc-workshop-docu_registry
+ - Sample registry that integrates the template and docu sources: https://github.com/hybris/docpad-skeleton-apidocs-sampledata
 
 2. Configuration
 
