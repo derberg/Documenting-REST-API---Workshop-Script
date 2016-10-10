@@ -24,7 +24,7 @@ Few hints:
 Run below command in terminal where your docpad-skeleton-apidocs repository is located
 > npm run init
 > NODE_ENV=prod npm run compile
-> gulp preparePushResult && gulp pushResult
+> npm run preparePushResult && npm run pushResult
 ```
 
 ### See your changes on production
