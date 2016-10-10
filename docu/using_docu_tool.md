@@ -11,7 +11,7 @@ First you need to fork some projects and configure them correctly to set up the 
 
 Config edits can be done through github.com UI or by using [Git CLI](https://www.codeschool.com/courses/try-git) or [GitHub Desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/).
 
- - Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository. Change the `path` attribute:
+ - Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository. Change the `path` attribute to:
  ```
  path: process.env.REGISTRY_PATH || 'https://github.com/derberg/apidoc-workshop-docu_registry.git'
  ```
