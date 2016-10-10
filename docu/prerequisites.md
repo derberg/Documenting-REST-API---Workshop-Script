@@ -5,7 +5,7 @@ You need to have the following software/modules/applications installed on your c
 - Install Node.js (4.x version) and NPM (3.3.10 version):  
  - Install Node and NPM through package available on https://nodejs.org/en/download/
  - Upgrade NPM by calling the following in the terminal window: `npm install npm@3.3.10 -g`. You might need admin permissions to run this command. For unix you will have to prefix the call with `sudo`
- - Now go to your terminal add call:
+ - Now go to your terminal and call:
    - `node -v` to make sure you installed Node version 4.x
     - `npm -v` to make sure you installed NPM version 3.3.10
 - Get GitHub account: https://github.com/
