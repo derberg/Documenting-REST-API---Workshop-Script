@@ -69,10 +69,9 @@ The easiest solution is to publish the API Doc portal on GitHub pages as this se
 
 4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal
 
-5. Call the following command on Linux/Mac OS: `NODE_ENV=prod npm run compile`
-
-*on Windows you should run this command:*
-
+5. Call the following command:
+ - On Linux/Mac OS: `NODE_ENV=prod npm run compile`
+ - On Windows OS:
 ```
 SET NODE_ENV=prod
 npm run compile
