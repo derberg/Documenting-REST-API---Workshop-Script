@@ -3,7 +3,7 @@
 First you need to fork some projects and configure them correctly to set up the documentation independent generation pipeline.
 
 1. Fork the following repos (it means open the links and click on [Fork](https://help.github.com/articles/fork-a-repo/) button in the top right corner of the page):
- - API Doc portal template: https://github.com/hybris/docpad-skeleton-apidocs
+ - API Doc portal template: https://github.com/YaaS/docpad-skeleton-apidocs
  - Sample REST API microservice that we will be documenting: https://github.com/derberg/minerva
  - Sample registry that integrates the template and docu sources: https://github.com/derberg/apidoc-workshop-docu_registry
 
@@ -35,7 +35,7 @@ If configuration is completed you have to:
 
 4. Now call `npm run init` to install inject content into the template
 
-5. Call `npm run start` to start documentation server locally 
+5. Call `npm run start` to start documentation server locally
 
 6. Once the start is completed, open in the browser the following link: http://127.0.0.1/:9778/
 
