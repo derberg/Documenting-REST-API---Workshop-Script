@@ -1,6 +1,3 @@
-**This Workshop script is under construction. It is being updated and adjusted for [tcworld2016](http://conferences.tekom.de/tcworld16/tcworld16/) conference.
-Old version from ETC2016 conference is available here: https://github.com/derberg/Documenting-REST-API---Workshop-Script/tree/v1.0**
-
 ## REST API -> The easiest and coolest docu to write
 
 This is a script for a workshop about documenting REST APIs. The workshop covers two aspects:
