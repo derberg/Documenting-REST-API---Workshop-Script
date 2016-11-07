@@ -8,7 +8,7 @@ HTTP/1.1 Specification: https://tools.ietf.org/html/rfc2616
 
 ### Base URI and Paths/Endpoints/Resources
 
-Base URI: `http://minerva.cfapps.io`
+Base URI: `http://minerva.us-west-2.elasticbeanstalk.com`
 
 and
 
@@ -22,20 +22,20 @@ Most commonly used:
 - PUT
 - DELETE
 
-Make a GET call to http://minerva.cfapps.io/events
+Make a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
 
 ### Query params
 
 So called optional parameters.
 Its about limiting and specifying response.
 
-Make a GET call to http://minerva.cfapps.io/events?q=type:"Conference 2016"
+Make a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events?q=type:"Conference 2016"`
 
 ### Headers
 
 Response and request.
 
-Make again a GET call to http://minerva.cfapps.io/events
+Make again a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
 Notice all the different headers, content type or length.
 
 ### Body/Payload
@@ -86,7 +86,7 @@ All listed here: https://httpstatuses.com/
 - 400
 - 500
 
-Make again a GET call to http://minerva.cfapps.io/events
+Make again a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
 Make again a POST call with Content-Type: application/json
 ```
 {  
