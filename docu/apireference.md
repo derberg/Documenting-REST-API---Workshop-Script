@@ -54,11 +54,12 @@ Make a POST call with Content-Type: application/json
    "address":"sample address",
    "latitude":1.1,
    "longitude":1.1,
-   "eventId":"sampleeventId"
+   "eventId":"some-id-here"
 }
 ```
 
 Check also the response body.
+Then DELETE what you just created.
 
 ### Schemas and Mixins
 
@@ -74,9 +75,12 @@ Make a POST call with Content-Type: application/json
 ```
 {  
    "type":"sample type",
-   "name":"sample name"
+   "name":"sample name",
+   "eventId":"sample eventId"
 }
 ```
+
+Notice the validation error message in response.
 
 ### Response body and codes
 
@@ -99,11 +103,9 @@ Make again a POST call with Content-Type: application/json
    "address":"sample address",
    "latitude":1.1,
    "longitude":1.1,
-   "eventId":"sampleeventId"
+   "eventId":"some-existing-id-here"
 }
 ```
-
-The same call twice.
 
 ## Document using RAML or API Blueprint
 
