@@ -113,10 +113,10 @@ RAML spec: https://github.com/raml-org/raml-spec/blob/master/versions/raml-08/ra
 Go to https://github.com/derberg/minerva/blob/master/service/api/api.raml
 
 Develop with approach **API First** then you get:
-- API Reference: http://derberg.github.io/services/minerva/latest/index.html#ApiReference
-- API Console: http://derberg.github.io/services/minerva/latest/apiconsole.html
-- API Notebook: http://derberg.github.io/services/minerva/latest/index.html#Gettingconferenceeventsfor2016
-- API Client: http://derberg.github.io/services/minerva/latest/client.zip
+- API Reference: http://derberg.github.io/services/minerva/latest/index.html#ApiReference (using https://github.com/raml2html/raml2html behind the scenes)
+- API Console: http://derberg.github.io/services/minerva/latest/apiconsole.html (using https://github.com/mulesoft/api-console behind the scenes)
+- API Notebook: http://derberg.github.io/services/minerva/latest/index.html#Gettingconferenceeventsfor2016 (using https://github.com/mulesoft/api-notebook behind the scenes)
+- API Client: http://derberg.github.io/services/minerva/latest/client.zip (using https://github.com/mulesoft-labs/raml-javascript-generator behind the scenes)
 
 Write it using:
 - API Designer: https://github.com/mulesoft/api-designer
