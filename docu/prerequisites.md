@@ -19,4 +19,4 @@ Note: Windows users, please remember to alway make sure that during installation
    - `node -v` to make sure you installed Node version 4.x
     - `npm -v` to make sure you installed NPM version 3.3.10
 - Install some nice text editor like [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)
-- Install Python (only for Windows) available in: https://www.python.org/downloads/
+- Install Python (only for Windows) available in: https://www.python.org/downloads/ (any 2 or 3 version)
