@@ -55,6 +55,7 @@ Why you can have a Google Map on your Web page
 
 Let us document our own service and publish documentation for it to a public server.
 
+- [Purpose](docu/purpose.md) -> Technologies behind the whole concept
 - [Prerequisites](docu/prerequisites.md) -> You need to install some software on your machine first
 - [Set up and publishing](docu/using_docu_tool.md) -> Set up your local environment and publish first version of your documentation page
 - [Write a Details document](docu/newdocu.md) -> Write new document
