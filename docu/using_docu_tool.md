@@ -44,7 +44,7 @@ The easiest solution is to publish the API Doc portal on GitHub pages as this se
  ```
  - Change the `docuUrl` attribute:
  ```
- docuUrl: process.env.docuURL || 'http://your_github_username.github.io',
+ docuUrl: process.env.docuURL || 'https://your_github_username.github.io',
  ```
  
 3. Modify `docpad.coffee` file in forked `docpad-skeleton-apidocs` repository. Change the `url` attribute in the following way:
@@ -54,7 +54,7 @@ The easiest solution is to publish the API Doc portal on GitHub pages as this se
    prod:
      templateData:
        site:
-         url: "http://your_github_username.github.io"
+         url: "https://your_github_username.github.io"
  ```
  
 4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal and do"
