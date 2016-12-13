@@ -34,7 +34,7 @@ If configuration is completed you have to:
 
 The easiest solution is to publish the API Doc portal on GitHub pages as this service is for free. Of course the generated API Doc portal files can be hosted on any other server as it is pure static content.
 
-1. Create new repository with the following name: `your_github_username.github.io`. It must be public and initialized (You do it in UI during creation).
+1. Create new repository with the following name: `your_github_username.github.io`. It must be public and initialized (You do it in UI during creation, just initialize with a readme file).
 
 2. Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository.
 
@@ -57,7 +57,11 @@ The easiest solution is to publish the API Doc portal on GitHub pages as this se
          url: "http://your_github_username.github.io"
  ```
  
-4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal
+4. Navigate to the local clone of `docpad-skeleton-apidocs` repository in the terminal and do"
+ ```
+ git pull
+ npm run init
+ ```
 
 5. Call the following command:
  - On Linux/Mac OS: `NODE_ENV=prod npm run compile`
