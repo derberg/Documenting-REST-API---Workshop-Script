@@ -28,7 +28,7 @@ If configuration is completed you have to:
 3. Call the following command: `npm run prepare` to install all the dependencies
 4. Now call `npm run init` to install inject content into the template
 5. Call `npm run start` to start documentation server locally
-6. Once the start is completed, open in the browser the following link: http://127.0.0.1/:9778/
+6. Once the start is completed, open in the browser the following link: http://127.0.0.1:9778/
 
 ## Publishing to GitHub Pages
 
