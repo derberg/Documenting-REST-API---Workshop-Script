@@ -28,6 +28,13 @@ Git hosting service + much more like:
 
 Most known alternative: [Bitbucket](https://bitbucket.org)
 
+### [GitHub Pages](https://pages.github.com/)
+
+Free static pages hosting service. 
+Sample lib that hosts its documentation page using GitHub Pages: http://getbootstrap.com/
+
+Most known alternative: I don't know anything better
+
 ### DocPad
 
 Static site generator + much more. By defining layouts you can generate whole documentation portals with sources written in simple markdown syntax.
