@@ -12,11 +12,11 @@ Config edits can be done through github.com UI or by using [Git CLI](https://www
 
  - Modify `chewieConfig.js` file in forked `docpad-skeleton-apidocs` repository. Change the `path` attribute to:
  ```
- path: process.env.REGISTRY_PATH || 'https://github.com/your_github_username/apidoc-workshop-docu_registry.git'
+ path: process.env.REGISTRY_PATH || 'https://github.com/your_github_username/apidoc-workshop-docu_registry.git',
  ```
  - Modify `minerva.json` file in forked `apidoc-workshop-docu_registry` repository. Change the `location` attribute:
  ```
- "location": "https://github.com/your_github_username/minerva"
+ "location": "https://github.com/your_github_username/minerva",
  ```
 
 ## Start the API Doc portal locally
