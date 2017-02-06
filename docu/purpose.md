@@ -45,7 +45,7 @@ Most known alternatives:
 
 ### Markdown
 
-Simple markup language used in plain text files. Later such file can be converten into any other format like HTML for example. Sample usage: this document and basically all other documents that describe this workshop.
+Simple markup language used in plain text files. Later such file can be converted into any other format like HTML for example. Sample usage: this document and basically all other documents that describe this workshop.
 
 Most known alternatives:
 - [reStructuredText](http://docutils.sourceforge.net/rst.html)
@@ -53,4 +53,4 @@ Most known alternatives:
 
 ### Chewie
 
-Chewie makes it possible to have documentation content distributend in different locations. It supports content registry management, independent docu generation and publishing.
+Chewie makes it possible to have documentation content distributed in different locations. It supports content registry management, independent docu generation and publishing.
