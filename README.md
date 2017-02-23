@@ -44,23 +44,12 @@ Why you can have a Google Map on your Web page
 - http://catfacts-api.appspot.com/doc.html
 - http://catfacts-api.appspot.com/api/facts?number=3
 
-## Details
-
-### Consuming and Theory
+## Consuming and Theory
 
 - [API Clients](docu/apiclients.md)
 - [API Reference](docu/apireference.md)
 
-### Technical
+## Setting up a portal with REST API documentation 
 
-Let us document our own service and publish documentation for it to a public server.
-
-- [Purpose](docu/purpose.md) -> Technologies behind the whole concept
-- [Prerequisites](docu/prerequisites.md) -> You need to install some software on your machine first
-- [Set up and publishing](docu/using_docu_tool.md) -> Set up your local environment and publish first version of your documentation page
-- [Write a Details document](docu/newdocu.md) -> Write new document
-
-### Extra tasks
-
-- API specification requires update in the schema for errors part -> Make some edits to API specification
-- Now create a automated pipeline that will pick your changes and deploy to GitHub Pages. Use https://travis-ci.org/
+- Do it with documentation listed in tutorial here https://github.com/YaaS/docpad-skeleton-apidocs#tutorial
+- Do it with video support https://www.youtube.com/watch?v=a0i6kXxgYuwdoc
