@@ -1,7 +1,7 @@
 ## API Clients
 
 Generic clients:
-- Command line: https://curl.haxx.se/docs/manpage.html and `curl http://conferences.tekom.de/tcworld16/tcworld16/`
+- Command line: https://curl.haxx.se/docs/manpage.html and `curl https://www.yaas.io/`
 - UI: Postman or any other Chrome or Firefox plugin
 - Code based: https://github.com/danwrong/restler
 
