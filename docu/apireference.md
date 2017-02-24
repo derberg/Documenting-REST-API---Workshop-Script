@@ -107,7 +107,7 @@ Make again a POST call with Content-Type: application/json
 }
 ```
 
-## Document using RAML or API Blueprint
+## Document using RAML
 
 RAML spec: https://github.com/raml-org/raml-spec/blob/master/versions/raml-08/raml-08.md
 Go to https://github.com/derberg/minerva/blob/master/service/api/api.raml
@@ -121,3 +121,8 @@ Develop with approach **API First** then you get:
 Write it using:
 - API Designer: https://github.com/mulesoft/api-designer
 - Restlet Studio: https://studio.restlet.com/
+
+Alternatives:
+- API Blueprint
+- Apiary
+- Swagger
