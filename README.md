@@ -52,5 +52,9 @@ Why you can have a Google Map on your Web page
 
 ## Setting up a portal with REST API documentation 
 
+Hard way:
 - Do it with documentation listed in tutorial here https://github.com/YaaS/docpad-skeleton-apidocs#tutorial
 - Do it with video support https://www.youtube.com/watch?v=a0i6kXxgYuwdoc
+
+Easy way:
+https://github.com/Mermade/widdershins
