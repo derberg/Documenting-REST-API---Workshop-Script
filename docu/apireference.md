@@ -8,11 +8,11 @@ HTTP/1.1 Specification: https://tools.ietf.org/html/rfc2616
 
 ### Base URI and Paths/Endpoints/Resources
 
-Base URI: `http://minerva.us-west-2.elasticbeanstalk.com`
+Base URI: `https://api.thecatapi.com/v1`
 
 and
 
-Paths/Endpoints/Resources: `/events` or `/events/{eventId}`
+Paths/Endpoints/Resources: `/images` or `/images/:image_id`
 
 ### Methods
 
@@ -22,39 +22,30 @@ Most commonly used:
 - PUT
 - DELETE
 
-Make a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
+Make a GET call to `https://api.thecatapi.com/v1/images/search`
 
 ### Query params
 
 So called optional parameters.
 Its about limiting and specifying response.
 
-Make a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events?q=type:"Conference 2016"`
+Make a GET call to `https://api.thecatapi.com/v1/images/search?size=small&limit=5`
 
 ### Headers
 
 Response and request.
 
-Make again a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
+Make again a GET call to `https://api.thecatapi.com/v1/images/search`
 Notice all the different headers, content type or length.
 
 ### Body/Payload
 
-It is not only when you POST but also whey you get a response.
+It is not only when you POST but also whey you GET a response.
 
-Make a POST call with Content-Type: application/json
+Make a POST call to `https://api.thecatapi.com/v1/favourites` with `Content-Type: application/json`
 ```
-{  
-   "type":"sample type",
-   "name":"sample name",
-   "description":"sample description",
-   "website":"sample website",
-   "start_date":"sample start_date",
-   "end_date":"sample end_date",
-   "address":"sample address",
-   "latitude":1.1,
-   "longitude":1.1,
-   "eventId":"some-id-here"
+{
+	"image_id": "4m6"
 }
 ```
 
@@ -73,10 +64,8 @@ Mixins say that you can basically put whatever you want.
 
 Make a POST call with Content-Type: application/json
 ```
-{  
-   "type":"sample type",
-   "name":"sample name",
-   "eventId":"sample eventId"
+{
+	"image_ids": "4m6"
 }
 ```
 
@@ -90,22 +79,18 @@ All listed here: https://httpstatuses.com/
 - 400
 - 500
 
-Make again a GET call to `http://minerva.us-west-2.elasticbeanstalk.com/events`
+Make again a GET call to `https://api.thecatapi.com/v1/favourites`
 Make again a POST call with Content-Type: application/json
 ```
-{  
-   "type":"sample type",
-   "name":"sample name",
-   "description":"sample description",
-   "website":"sample website",
-   "start_date":"sample start_date",
-   "end_date":"sample end_date",
-   "address":"sample address",
-   "latitude":1.1,
-   "longitude":1.1,
-   "eventId":"some-existing-id-here"
+{
+	"image_id": "4m6"
 }
 ```
+
+## Document using Swagger aka OpenAPI Spec
+
+Swagger spec: https://github.com/OAI/OpenAPI-Specification
+Sample spec in use: https://editor.swagger.io/
 
 ## Document using RAML
 
