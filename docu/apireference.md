@@ -89,8 +89,8 @@ Make again a POST call with Content-Type: application/json
 
 ## Document using Swagger aka OpenAPI Spec
 
-Swagger spec: https://github.com/OAI/OpenAPI-Specification
-Sample spec in use: https://editor.swagger.io/
+- Swagger spec: https://github.com/OAI/OpenAPI-Specification
+- Sample spec in use: https://editor.swagger.io/
 
 ## Document using RAML
 
